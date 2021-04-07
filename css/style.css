@@ -1,0 +1,562 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.header {
+    position: relative;
+    background-image: url(https://canaan.uz/wp-content/uploads/2020/11/egypt.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 793px;
+ 
+}
+.cover_bg {
+    background-color: rgba(0, 0, 4,0.4);
+    width: 100%;
+    height: 100%;
+
+}
+
+.navbar_menu {
+    max-width: max-content;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.icon_logo {
+    width: 220px;
+    height: 78px;
+}
+.navbar_menu .nav li {
+    margin-right: 40px;
+}
+
+.navbar_menu>.nav>li>a {
+    color: white;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navbar_menu>.nav>li>a:hover {
+    color: #ffaf34;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}
+
+.tel_number {
+    padding-top: 10px;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 1.8rem;
+
+}
+
+.tel_number:hover {
+    text-decoration: none;
+    color: #ffaf34;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}
+
+.tur_uzb_title {
+    padding-top: 20px;
+    text-indent: 40px;
+    color: #fff;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.main_center_text {
+    text-align: center;
+    padding-top: 130px;
+
+}
+.main_center_text h1{
+    font-size: 3.75rem;
+    color: #fff;
+    font-weight: 900;
+}
+.main_center_text p {
+    font-size: 33px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.main_center_text a{
+    box-shadow: 0 0 10px #ffaf34;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    padding: 20px 55px;
+    background-color: #ffaf34;
+    border-radius:25px;
+    -webkit-border-radius:25px;
+    -moz-border-radius:25px;
+    -ms-border-radius:25px;
+    -o-border-radius:25px;
+}
+.main_center_text a:hover {
+    box-shadow: none;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}
+.section_first {
+    position: relative;
+}
+.icon_fire {
+    position: absolute;
+    bottom: -50px;
+    left: 46%;
+    background-color: #fff;
+    width: 93px;
+    height: 93px;
+    padding: 25px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    z-index: 1000;
+}
+.icon_fire img {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.section_first {
+    position: relative;
+    padding: 73px 0 100px;
+    /* background-color: #fafafa; */
+}
+.line_width h1 {
+      position: relative;
+      margin: 0 auto 55px;
+      text-align: center;
+      font-size: 2.5rem;
+      color: black;
+      font-weight: 600;
+
+}
+.line_width h1::before {
+    position: absolute;
+    display: block;
+    content: " ";
+    left: -10%;
+    width: 35%;
+    height: 2px;
+    top: 55%;
+    background-color: black;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.line_width h1::after {
+    position: absolute;
+    display: block;
+    content: " ";
+    right: -10%;
+    width: 35%;
+    height: 2px;
+    top: 55%;
+    background-color: black;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.albom_country {
+    position: relative;
+    width: 100%;
+    min-height: 1000px;
+}
+.country_first {
+    box-shadow: 0 0 5px black;
+    overflow: hidden;
+    position: absolute;
+    background-image:url(https://canaan.uz/wp-content/uploads/2020/10/1_Einstieg_Leit_FinolhuDrone-20-e1530002937125.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    width: 350px;
+    height: 669px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.country_first_in {
+    font-weight: bold;
+    padding-top: 10px;
+    display: inline-block;
+    text-indent: 30px;
+    color: #fff;
+    font-size: 33px;
+    width: 100%;
+    height: 100%;
+    transition: ease-out 0.2s;
+    -webkit-transition: ease-out 0.2s;
+    -moz-transition: ease-out 0.2s;
+    -ms-transition: ease-out 0.2s;
+    -o-transition: ease-out 0.2s;
+}
+.country_first_in:hover {
+
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(3, 3, 31, 0.534);
+    transition: ease-in 0.2s;
+    -webkit-transition: ease-in 0.2s;
+    -moz-transition: ease-in 0.2s;
+    -ms-transition: ease-in 0.2s;
+    -o-transition: ease-in 0.2s;
+}
+.country_second {
+    position: absolute;
+    right: 0;
+    width: 729px;
+    height: 300px;
+    overflow: hidden;
+    background-image: url(https://canaan.uz/wp-content/uploads/2020/05/1-19.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.country_second_in {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 10px;
+    display: inline-block;
+    text-indent: 30px;
+    color: #fff;
+    font-size: 33px;
+    width: 100%;
+    height: 100%;
+    transition: ease-out 0.2s;
+    -webkit-transition: ease-out 0.2s;
+    -moz-transition: ease-out 0.2s;
+    -ms-transition: ease-out 0.2s;
+    -o-transition: ease-out 0.2s;
+}
+.country_second_in:hover {
+
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(3, 3, 31, 0.534);
+    transition: ease-in 0.2s;
+    -webkit-transition: ease-in 0.2s;
+    -moz-transition: ease-in 0.2s;
+    -ms-transition: ease-in 0.2s;
+    -o-transition: ease-in 0.2s;
+}
+.country_three {
+    position: absolute;
+    top: 330px;
+    left: 379px;
+    width: 350px;
+    height: 339px;
+    overflow: hidden;
+    background-image: url(https://canaan.uz/wp-content/uploads/2018/08/turi-v-oae-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.country_three_in {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 10px;
+    display: inline-block;
+    text-indent: 30px;
+    color: #fff;
+    font-size: 33px;
+    width: 100%;
+    height: 100%;
+    transition: ease-out 0.2s;
+    -webkit-transition: ease-out 0.2s;
+    -moz-transition: ease-out 0.2s;
+    -ms-transition: ease-out 0.2s;
+    -o-transition: ease-out 0.2s;
+}
+.country_three_in:hover {
+
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(3, 3, 31, 0.534);
+    transition: ease-in 0.2s;
+    -webkit-transition: ease-in 0.2s;
+    -moz-transition: ease-in 0.2s;
+    -ms-transition: ease-in 0.2s;
+    -o-transition: ease-in 0.2s;
+}
+.country_four {
+    right: 0;
+    top: 330px;
+    box-shadow: 0 0 5px black;
+    overflow: hidden;
+    position: absolute;
+    background-image:url(https://canaan.uz/wp-content/uploads/2018/08/ushuaia_beach_hotel_1080x1920_ibiza_best_beaches_in_the_world_tourism.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    width: 350px;
+    height: 669px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.country_four_in {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 10px;
+    display: inline-block;
+    text-indent: 30px;
+    color: #fff;
+    font-size: 33px;
+    width: 100%;
+    height: 100%;
+    transition: ease-out 0.2s;
+    -webkit-transition: ease-out 0.2s;
+    -moz-transition: ease-out 0.2s;
+    -ms-transition: ease-out 0.2s;
+    -o-transition: ease-out 0.2s;
+}
+.country_four_in:hover {
+
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(3, 3, 31, 0.534);
+    transition: ease-in 0.2s;
+    -webkit-transition: ease-in 0.2s;
+    -moz-transition: ease-in 0.2s;
+    -ms-transition: ease-in 0.2s;
+    -o-transition: ease-in 0.2s;
+}
+.country_five {
+    position: absolute;
+    left: 0;
+    top: 699px;
+    width: 729px;
+    height: 300px;
+    overflow: hidden;
+    background-image:url(https://canaan.uz/wp-content/uploads/2018/08/egypt.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.country_five_in {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 10px;
+    display: inline-block;
+    text-indent: 30px;
+    color: #fff;
+    font-size: 33px;
+    width: 100%;
+    height: 100%;
+    transition: ease-out 0.2s;
+    -webkit-transition: ease-out 0.2s;
+    -moz-transition: ease-out 0.2s;
+    -ms-transition: ease-out 0.2s;
+    -o-transition: ease-out 0.2s;
+}
+.country_five_in:hover {
+
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(3, 3, 31, 0.534);
+    transition: ease-in 0.2s;
+    -webkit-transition: ease-in 0.2s;
+    -moz-transition: ease-in 0.2s;
+    -ms-transition: ease-in 0.2s;
+    -o-transition: ease-in 0.2s;
+}
+.icon_balloon {
+    min-width: max-content;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 46px;
+    height: 36px;
+    background: url(https://canaan.uz/wp-content/themes/gratia/static/img/hot-air-balloon.svg) center center no-repeat;
+}
+.content_travel_info {
+    border: 1px solid #9999;
+    padding: 40px 20px 20px 20px ;
+}
+.icon_avatar {
+    margin: 0 auto;
+    width: 80px;
+}
+.title_info {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.text_bottm {
+    font-size: 18px;
+    text-align: center;
+    text-align-last: center;
+}
+.section_four{
+    padding: 40px 0;
+}
+.photo_tur{
+    overflow: hidden;
+    max-width: max-content;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.tur_text {
+    font-size: 18px;
+    line-height: 21.5px;
+    text-align: justify;
+}
+.tur_text_title{
+    font-weight: 600;
+    text-align: center;
+}
+.about_me {
+    background-image: url(https://canaan.uz/wp-content/themes/gratia/static/img/reviews-back.jpg);
+     background-repeat: no-repeat;
+     background-position: center top;
+     background-size: cover;
+     text-align: center;
+     color: #fff;
+     font-size: 18px;
+}
+.about_me_title {
+  padding-top: 40px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 42px;
+    color: #fff;
+}
+.about_avatar {
+    margin: 0 auto;
+    width: 140px;
+    height: 140px;
+    background-image: url(https://canaan.uz/wp-content/uploads/2018/08/%D0%9F%D0%B0%D0%BA-1-e1526020597568.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.name_about {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 27px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.checkbox_input_about input {
+    margin-top: 20px;
+    margin-bottom: 50px;
+      background-color: #ffffff;
+      width: 15px;
+      height: 15px;
+      margin-right: 7px;
+      color: #fff;
+}
+.checkbox_input_about input:checked {
+    color: #fff;
+    background-color: #fff;
+    width: 19px;
+    height: 19px;
+}
+.answer {
+    padding: 40px 0;
+    max-width: max-content;
+    margin: 0 auto;
+}
+.answer_quest {
+    text-align: center;
+    font-size: 47px;
+    font-weight: 600;
+}
+.form_answer input::placeholder {
+    text-align: center;
+}
+.form_answer input {
+    margin-right: 20px;
+}
+.form_answer input[type=text] {
+    padding: 13px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.form_answer input[type=submit] {
+    color: #fff;
+    background-color: #ffaf34;
+    padding: 13px 88px;
+    border: 1px solid;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.footer_nav li{
+list-style: none;
+display: inline-block;
+margin-right: 15px;
+}
+.footer_nav li a {
+    color: black;
+    font-size: 24px;
+}
+.footer_nav li a:hover {
+    color: #ffaf34;
+    text-decoration: none;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}
+.insta_teleg {
+    margin-left: 80px;
+}
